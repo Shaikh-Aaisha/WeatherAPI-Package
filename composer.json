@@ -1,5 +1,5 @@
 {
-    "name": "noorisys/weatherapi",
+    "name": "noorisysweather/weatherapi",
     "description": "Package for weather API",
     "autoload": {
         "psr-4": {
