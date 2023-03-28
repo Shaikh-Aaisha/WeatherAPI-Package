@@ -1,0 +1,13 @@
+{
+    "name": "weather/weatherbit",
+    "description": "Package for weather API",
+    "autoload": {
+        "psr-4": {
+            "Weather\\Weatherbit\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+
+    }
+}
