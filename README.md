@@ -6,7 +6,7 @@
 Require this package, with [Composer](https://packagist.org/), in the root directory of your project.
 
 ```bash
-$ composer require weather/weatherbit
+$ composer require noorisysweather/weatherapi
 ```
 
 Add the service provider to `config/app.php` in the `providers` array.
