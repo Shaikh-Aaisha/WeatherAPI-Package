@@ -12,7 +12,7 @@ $ composer require weather/weatherbit
 Add the service provider to `config/app.php` in the `providers` array.
 
 ```php
-Flight\Aerodatabox\Providers\AeroDataBoxServiceProvider::class,
+Weather\Weatherbit\Providers\WeatherServiceProvider::class,
 ```
 
 ## Configuration
@@ -20,7 +20,7 @@ Flight\Aerodatabox\Providers\AeroDataBoxServiceProvider::class,
 Laravel requires connection configuration. To get started, you'll need to publish all vendor assets:
 
 ```bash
-$ php artisan vendor:publish --provider="Flight\Aerodatabox\Providers\AeroDataBoxServiceProvider"
+$ php artisan vendor:publish --provider="Weather\Weatherbit\Providers\WeatherServiceProvider"
 ```
 
 You are free to change the configuration file as needed, but the default expected values are below in .env file:
@@ -34,6 +34,6 @@ RAPID_API_HOST="api host"
 
 import postman collection via link and run APIs 
 ```
-https://api.postman.com/collections/22576705-2c3f6c12-c357-454c-bddd-d2796ab0bfab?access_key=PMAT-01GWH1741MPHHS3AZP2H4R4RXK
+https://api.postman.com/collections/22576705-d776556b-d3c4-4cc7-92b5-6b9b29c70d21?access_key=PMAT-01GWNSPHCPC9RX678KJ5831CTG
 ```
 
